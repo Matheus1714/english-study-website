@@ -7,5 +7,5 @@ import linkPreview from "astro-link-preview";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://example.com',
-	integrations: [mdx(), sitemap(), linkPreview()],
+	integrations: [mdx(), sitemap()],
 });

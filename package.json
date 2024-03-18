@@ -15,7 +15,6 @@
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
     "astro": "^4.5.5",
-    "astro-link-preview": "^0.3.4",
     "typescript": "^5.4.2"
   }
 }
