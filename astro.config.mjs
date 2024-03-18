@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 
 import sitemap from '@astrojs/sitemap';
-import linkPreview from "astro-link-preview";
 
 // https://astro.build/config
 export default defineConfig({
