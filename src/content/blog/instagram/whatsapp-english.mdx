@@ -1,0 +1,43 @@
+---
+title: 'Vocabulário: Inglês no Whatsapp'
+description: 'Palavras e expressões simplificadas para se usar no Whatsapp'
+pubDate: 'March 18 2024'
+heroImage: '/instagram/whatsapp-english.png'
+---
+
+export const data = [
+    { text: 'Today', expression: '2day' },
+    { text: 'Tonight', expression: '2nite' },
+    { text: 'Forever', expression: '4ever' },
+    { text: 'Before', expression: 'b4' },
+    { text: 'Barbecue', expression: 'bbq' },
+    { text: 'Birthday', expression: 'bday' },
+    { text: 'Boyfriend', expression: 'bf' },
+    { text: 'By the way', expression: 'btw' },
+    { text: 'Busy', expression: 'bz' },
+    { text: 'Call me', expression: 'cm' },
+    { text: 'Brother', expression: 'bro' },
+    { text: 'See you', expression: 'cu' },
+    { text: 'See you later', expression: 'CUL' },
+    { text: 'Go to go', expression: 'g2g' },
+    { text: 'Good night', expression: 'ghite' },
+    { text: 'How are you?', expression: 'how r u?' },
+    { text: 'I miss you', expression: 'IMU' },
+    { text: 'Picture', expression: 'pic' },
+    { text: 'Oh my God!', expression: 'OMG' },
+]
+
+<table>
+    <thead>
+        <th>Texto</th>
+        <th>Expressão</th>
+    </thead>
+    <tbody>
+        {data.map(e => (
+            <tr>
+                <td>{e.text}</td>
+                <td>{e.expression}</td>
+            </tr>
+        ))}
+    </tbody>
+</table>
