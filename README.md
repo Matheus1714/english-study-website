@@ -1,6 +1,6 @@
 # English Stufy Blog
 
-![alt text](banner.png)
+![alt text](.github/img/banner.png)
 
 Features:
 
